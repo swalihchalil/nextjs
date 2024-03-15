@@ -3,8 +3,8 @@
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "babelOptions": {
-      "configFile": "./babel.config.json" // Specify the path to your Babel configuration file if it's located elsewhere
+      "configFile": "./config/babel.config.json"
     }
   },
-  "plugins": ["@babel"]
+  "plugins": ["@babel/eslint-plugin"]
 }

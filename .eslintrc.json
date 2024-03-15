@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "babelOptions": {
+      "configFile": "./babel.config.json" // Specify the path to your Babel configuration file if it's located elsewhere
+    }
+  },
+  "plugins": ["@babel"]
 }

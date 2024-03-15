@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-                    <code className={styles.code}>src/app/page.js</code>
+          <code className={styles.code}>src/app/page.js</code>
         </p>
         <div>
           <a
@@ -14,7 +14,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
+            By ``
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
